@@ -210,41 +210,71 @@
     </section>
 
     <section
-  class="relative bg-cover bg-center py-24 px-6 sm:px-10 lg:px-20"
-  style="background-image: url('./public/8.jpg')"
->
-  <!-- Dark overlay for readability -->
-  <div class="absolute inset-0 bg-black/50"></div>
+      class="relative bg-cover bg-center py-24 px-6 sm:px-10 lg:px-20"
+      style="background-image: url('./public/8.jpg')"
+    >
+      <!-- Dark overlay -->
+      <div class="absolute inset-0 bg-black/50"></div>
 
-  <!-- Content -->
-  <div class="relative max-w-7xl mx-auto grid md:grid-cols-2 gap-12 text-white">
-    
-    <!-- Left column -->
-    <div class="space-y-6">
-      <h2 class="text-4xl font-extrabold">Our Story</h2>
-      <h3 class="text-xl font-semibold">Our Existence Explained</h3>
-      <div class="space-y-2">
-        <p class="text-3xl font-bold">100,000+ <span class="text-lg font-normal">Healthcare access</span></p>
-        <p class="text-3xl font-bold">200,000+ <span class="text-lg font-normal">Students</span></p>
+      <!-- Wrapper: flex-col with space-between to push stats to bottom -->
+      <div
+        class="relative max-w-7xl mx-auto flex flex-col justify-between min-h-[600px] text-white"
+      >
+        <!-- Top: two columns as flex -->
+        <div class="flex flex-col md:flex-row gap-12">
+          <!-- Left column -->
+          <div class="flex-1 space-y-6">
+            <span
+              class="bg-yellow-300/20 px-4 py-2 rounded text-sm uppercase tracking-wide text-yellow-400 font-semibold"
+              >Our story</span
+            >
+            <h3 class="text-4xl font-semibold max-w-sm">
+              Our Existence Explained
+            </h3>
+          </div>
+
+          <!-- Right column -->
+          <div
+            class="flex-1 space-y-6 text-lg leading-relaxed bg-green-950 px-4 py-4 rounded-3xl"
+          >
+            <p>
+              Founded in 2025, KenEi Solutions emerged from a clear need to help
+              organizations simplify complex information and transform it into
+              powerful, actionable solutions. We exist to make innovation
+              accessible — distilling technology into its most impactful form
+              for real-world change.
+            </p>
+            <p>
+              At KenEi Solutions, we’re driven by a singular mission: to harness
+              the power of technology and AI to tackle the most pressing
+              challenges facing Africa, especially in underserved communities.
+              From healthcare and housing to finance and education, we’re
+              committed to creating innovative solutions that make a tangible
+              difference in people’s lives. Our journey began with a simple yet
+              profound belief: that technology can be a force for good, bridging
+              gaps and creating opportunities where they’re needed most.
+            </p>
+            <p>
+              KenEi Solutions turns complexity into clarity transforming
+              advanced technology into simple, impactful solutions for everyday
+              challenges.
+            </p>
+          </div>
+        </div>
+
+        <!-- Bottom: stats block -->
+        <div class="space-y-2 flex gap-6">
+          <p class="text-3xl font-bold">
+            100,000+
+            <span class="block text-lg font-normal">Healthcare access</span>
+          </p>
+          <p class="text-3xl font-bold">
+            200,000+ <span class="block text-lg font-normal">Students</span>
+          </p>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Right column -->
-    <div class="space-y-6 text-lg leading-relaxed">
-      <p>
-        Founded in 2025, KenEi Solutions emerged from a clear need to help organizations simplify complex information and transform it into powerful, actionable solutions. We exist to make innovation accessible — distilling technology into its most impactful form for real-world change.
-      </p>
-      <p>
-        At KenEi Solutions, we’re driven by a singular mission: to harness the power of technology and AI to tackle the most pressing challenges facing Africa, especially in underserved communities. From healthcare and housing to finance and education, we’re committed to creating innovative solutions that make a tangible difference in people’s lives. Our journey began with a simple yet profound belief: that technology can be a force for good, bridging gaps and creating opportunities where they’re needed most.
-      </p>
-      <p>
-        KenEi Solutions turns complexity into clarity transforming advanced technology into simple, impactful solutions for everyday challenges.
-      </p>
-    </div>
-
-  </div>
-</section>
-    
     <section class="bg-gray-50 py-20 px-6 sm:px-10 lg:px-20">
       <div class="max-w-6xl mx-auto">
         <!-- Section Title -->
@@ -284,8 +314,11 @@
           <div
             class="flex-1 bg-green-50 border border-green-200 rounded-xl p-6 md:p-8 shadow-md hover:shadow-lg transition"
           >
-            <a href="https://kenei-health.com" target="_blank"
-            rel="noopener noreferrer">
+            <a
+              href="https://kenei-health.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <p class="">02</p>
               <p class="font-bold text-2xl">Kenei Health</p>
               <p class="mt-1 mb-2 text-sm">
