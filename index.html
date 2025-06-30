@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KENEI Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-100 text-gray-800">
+    <div
+      class="min-h-screen bg-cover bg-center bg-no-repeat"
+      style="background-image: url('./public/1.jpg')"
+    >
+      <div class="min-h-screen bg-white/70">
+        <header>
+          <div
+            class="max-w-7xl mx-auto flex justify-between items-center px-4 py-6"
+          >
+            <a href="/" class="flex items-center">
+              <img
+                src="./public/Simplification.png"
+                alt="KENEI Logo"
+                class="h-10 w-10 mr-4"
+              />
+              <h1 class="font-bold text-2xl italics">KENEI Solutions</h1>
+            </a>
+            <nav
+              class="hidden md:flex space-x-6"
+              aria-label="Primary navigation"
+            >
+              <a href="#" class="hover:text-green-900">Home</a>
+              <a href="#" class="hover:text-green-900">Mission Statement</a>
+              <a href="#" class="hover:text-green-900">Our Story</a>
+              <a href="#" class="hover:text-green-900"
+                >Our Solutions & Impact</a
+              >
+              <a href="#" class="hover:text-green-900">Contact Us</a>
+            </nav>
+            <div class="hidden md:block">
+              <a
+                href="#"
+                class="bg-green-900 text-white px-4 py-2 rounded-md hover:bg-green-800"
+                >Get Started</a
+              >
+            </div>
+            <button
+              id="menu-toggle"
+              class="md:hidden focus:outline-none"
+              aria-label="Toggle menu"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+            >
+              <svg
+                class="h-6 w-6"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+          </div>
+          <nav
+            id="mobile-menu"
+            class="hidden px-4 pb-4 space-y-2 md:hidden"
+            aria-label="Mobile navigation"
+          >
+            <a href="#" class="block hover:text-green-800">Home</a>
+            <a href="#" class="block hover:text-green-800">Mission Statement</a>
+            <a href="#" class="block hover:text-green-800">Our Story</a>
+            <a href="#" class="block hover:text-green-800"
+              >Our Solutions & Impact</a
+            >
+            <a href="#" class="block hover:text-green-800">Contact Us</a>
+            <a
+              href="#"
+              class="block text-white bg-blue-900 px-4 py-2 rounded text-center hover:bg-green-800"
+              >Get Started</a
+            >
+          </nav>
+        </header>
+
+        <main
+          class="max-w-7xl mx-auto px-40 py-16 grid lg:grid-cols-1 gap-12 items-center"
+        >
+          <section
+            class="px-16 text-center flex flex-col content-center justify-center"
+          >
+            <div class="py-10 px-4 sm:px-6 lg:px-8">
+              <div
+                class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-6"
+              >
+                <div class="flex -space-x-4">
+                  <img
+                    class="w-12 h-12 rounded-full border-2 border-white"
+                    src="./public/5.png"
+                    alt="User 1"
+                  />
+                  <img
+                    class="w-12 h-12 rounded-full border-2 border-white"
+                    src="./public/2.png"
+                    alt="User 2"
+                  />
+                  <img
+                    class="w-12 h-12 rounded-full border-2 border-white"
+                    src="./public/4.png"
+                    alt="User 3"
+                  />
+                  <img
+                    class="w-12 h-12 rounded-full border-2 border-white"
+                    src="./public/3.png"
+                    alt="User 4"
+                  />
+                  <img
+                    class="w-12 h-12 rounded-full border-2 border-white"
+                    src="./public/100+ (2).png"
+                    alt="User 4"
+                  />
+                </div>
+
+                <!-- Text -->
+                <div class="text-center sm:text-left">
+                  <p class="text-sm font-bold text-gray-600">
+                    Over 100,000+ Healthcare access by 2025
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">
+              Empowering Africa Through Technology & AI
+            </h1>
+            <p class="text-lg mb-8">
+              Innovative solutions in healthcare, finance, housing, and
+              education for underserved communities.
+            </p>
+            <div class="flex flex-wrap gap-4">
+              <a
+                href="#"
+                class="bg-indigo-600 text-white px-6 py-3 rounded hover:bg-indigo-700"
+                >Explore Our Impact</a
+              >
+              <a
+                href="#"
+                class="border border-gray-300 px-6 py-3 rounded hover:border-gray-500"
+                >Learn More</a
+              >
+            </div>
+
+            <div class="mt-10 flex items-center space-x-3">
+              <img src="icon.png" alt="People icon" class="h-6 w-6" />
+              <p class="text-sm text-gray-600 font-medium">
+                Over 100,000+ Healthcare access by 2025
+              </p>
+            </div>
+          </section>
+
+          <section
+            class="rounded-3xl bg-white py-16 px-6 grid grid-cols-2 gap-4"
+          >
+            <img
+              src="./public/Frame 16.png"
+              alt="Team member"
+              class="rounded-lg shadow-md object-cover h-62 w-full"
+            />
+            <img
+              src="./public/Rectangle 2.png"
+              alt="Data analysis session"
+              class="rounded-lg shadow-md object-cover h-62 w-full"
+            />
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <section
+    class="bg-white py-8 px-6 sm:px-10 lg:px-24 flex flex-col md:flex-row gap-12 min-h-[500px]"
+  >
+    <!-- Left: Mission Text -->
+    <div
+      class="w-full md:w-1/2 rounded-lg bg-green-950 text-white flex flex-col justify-center px-6 sm:px-8 py-16"
+    >
+      <div class="max-w-md mx-auto">
+        <span
+          class="bg-yellow-300/20 px-4 py-2 rounded text-sm uppercase tracking-wide text-yellow-400 font-semibold"
+          >Mission Statement</span
+        >
+        <h2 class="text-2xl md:text-3xl font-bold leading-snug mt-4">
+          We're on a mission to revolutionize Africa's future through tech and AI.
+        </h2>
+        <p class="mt-4 text-gray-200 leading-relaxed">
+          We build future-focused solutions in healthcare, finance, education,
+          and housing—bridging the digital divide across communities that need
+          it most.
+        </p>
+      </div>
+    </div>
+  
+    <!-- Right: Image Background -->
+    <div
+      class="w-full md:w-1/2 rounded-lg bg-cover bg-center min-h-[500px]"
+      style="background-image: url('./public/6.jpg')"
+      aria-hidden="true"
+    ></div>
+  </section>
+  
+
+    <section
+      class="bg-cover bg-center bg-no-repeat py-20 px-6"
+      style="background-image: url('kenei-about-bg.jpg')"
+    >
+      <div
+        class="bg-white/90 backdrop-blur-sm max-w-5xl mx-auto rounded-lg shadow-lg p-8 md:p-12"
+      >
+        <!-- Heading -->
+        <h2 class="text-3xl md:text-4xl font-bold text-green-800 mb-4">
+          Our Story
+        </h2>
+
+        <!-- Introduction -->
+        <p class="text-gray-700 text-lg mb-6 leading-relaxed">
+          Founded in 2025, KenEi Solutions emerged from a clear need to help
+          organizations simplify complex information and transform it into
+          powerful, actionable solutions.
+        </p>
+
+        <!-- Mission Blockquote -->
+        <blockquote
+          class="border-l-4 border-green-700 pl-4 italic text-gray-800 mb-6"
+        >
+          “We exist to make innovation accessible – distilling technology into
+          its most impactful form for real-world change.”
+        </blockquote>
+
+        <!-- Detailed Mission -->
+        <p class="text-gray-700 mb-6 leading-relaxed">
+          At KenEi Solutions, our mission is to harness the power of technology
+          and AI to tackle Africa’s most pressing challenges. From healthcare
+          and housing to finance and education, we’re committed to developing
+          innovative, real-world solutions that bring tangible change to
+          underserved communities.
+        </p>
+
+        <!-- Final Summary -->
+        <p class="text-gray-700 leading-relaxed">
+          Our journey began with a bold belief: that technology can bridge gaps
+          and create opportunity where it’s needed most.
+        </p>
+
+        <!-- Impact Stats -->
+        <div class="mt-10 flex flex-col sm:flex-row gap-6 text-center">
+          <div class="flex-1">
+            <p class="text-3xl font-bold text-green-900">100,000+</p>
+            <p class="text-sm text-gray-600">Healthcare Access</p>
+          </div>
+          <div class="flex-1">
+            <p class="text-3xl font-bold text-green-900">200,000+</p>
+            <p class="text-sm text-gray-600">Students Reached</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-white py-20 px-6 sm:px-10 lg:px-20">
+      <div class="max-w-6xl mx-auto">
+        <!-- Section Title -->
+        <h2
+          class="text-3xl sm:text-4xl font-extrabold text-green-900 text-center mb-16"
+        >
+          Our Solutions & Impact
+        </h2>
+
+        <!-- Two Cards as Flex -->
+        <div class="flex flex-col md:flex-row gap-10">
+          <!-- KENEI HEALTH -->
+          <div
+            class="flex-1 bg-green-50 border border-green-200 rounded-xl p-6 md:p-8 shadow-md hover:shadow-lg transition"
+          >
+            <div class="mb-4">
+              <img
+                src="kenei-health.jpg"
+                alt="KENEI Health Visual"
+                class="w-full h-48 object-cover rounded-md"
+              />
+            </div>
+            <h3 class="text-2xl font-bold text-green-800 mb-2">Kenei Health</h3>
+            <p class="text-gray-700 mb-4">
+              A groundbreaking healthcare platform delivering quality medical
+              services to remote areas.
+            </p>
+            <p class="text-sm text-green-700 font-medium">
+              On track to provide healthcare access to
+              <span class="font-bold">100,000+</span> individuals by 2025.
+            </p>
+          </div>
+
+          <!-- KENEI FINANCE (Coming Soon) -->
+          <div
+            class="flex-1 bg-gray-100 border border-gray-200 rounded-xl p-6 md:p-8 shadow-md hover:shadow-lg transition"
+          >
+            <div class="mb-4">
+              <div
+                class="w-full h-48 bg-gray-200 flex items-center justify-center rounded-md text-gray-500 text-sm font-semibold"
+              >
+                Coming Soon
+              </div>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-700 mb-2">
+              Kenei Finance
+              <span class="text-yellow-500 text-base font-medium"
+                >(Coming Soon)</span
+              >
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Innovative financial tools designed to promote inclusion and
+              empower the unbanked.
+            </p>
+            <p class="text-sm text-gray-700">
+              Goal: Facilitate financial access for
+              <span class="font-bold">50,000+</span> Africans by 2027.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ioahdbcacabn -->
+    <section class="bg-white py-20 px-6 sm:px-10 lg:px-20">
+      <div
+        class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center bg-gray-50 rounded-xl shadow-lg p-6 md:p-12"
+      >
+        <!-- Text Content -->
+        <div class="text-gray-800 space-y-6">
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-green-900">
+            Contact Us
+          </h2>
+
+          <p class="text-base sm:text-lg leading-relaxed">
+            We might be powered by tech, but we never forget the human touch.
+            Everything you need is right within our platforms, but if you ever
+            need support or just want to reach out—we're always here. Let’s
+            connect.
+          </p>
+
+          <div class="space-y-4 text-sm sm:text-base">
+            <p>
+              <span class="font-semibold text-green-800">Call:</span> +234
+              7018578163
+            </p>
+            <p>
+              <span class="font-semibold text-green-800">Email:</span>
+              keal.health@gmail.com
+            </p>
+            <p>
+              <span class="font-semibold text-green-800">Address:</span>
+              Onibrawa phase 1, Lagos, Nigeria
+            </p>
+          </div>
+        </div>
+
+        <!-- Image Section -->
+        <div class="w-full h-full">
+          <img
+            src="./public/Rectangle 2.png"
+            alt="Support agent with headset"
+            class="w-full h-auto rounded-lg object-cover shadow-md"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white px-6 py-16 sm:py-24">
+      <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <!-- Left: Image or Visual Block -->
+        <div class="w-full">
+          <img
+            src="newsletter-model.jpg"
+            alt="Newsletter visual"
+            class="w-full h-auto rounded-xl object-cover"
+          />
+        </div>
+
+        <!-- Right: Subscription Form -->
+        <div class="w-full max-w-md mx-auto md:mx-0 text-left">
+          <h3 class="text-xl font-semibold text-green-800 mb-2">
+            KENEI Solutions
+          </h3>
+          <h2
+            class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4 leading-tight"
+          >
+            Subscribe to our Newsletter!
+          </h2>
+          <p class="text-base text-gray-600 mb-8">
+            Stay updated on how we’re changing Africa.
+          </p>
+
+          <!-- Email Form -->
+          <form
+            action="#"
+            method="POST"
+            class="flex flex-col sm:flex-row items-center gap-4"
+          >
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="Your Email"
+              class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-600 transition"
+            />
+            <button
+              type="submit"
+              class="w-full sm:w-auto bg-green-600 text-white px-6 py-3 rounded-md hover:bg-green-700 transition font-medium"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-300 py-16 px-6 sm:px-10 lg:px-20">
+      <div class="max-w-6xl mx-auto grid md:grid-cols-4 gap-12">
+        <!-- Brand & Description -->
+        <div class="md:col-span-1 space-y-4">
+          <h2 class="text-xl font-bold text-white">KENEI Solutions</h2>
+          <p class="text-sm leading-relaxed">
+            KenEi Health Solutions is transforming access to healthcare through
+            innovation. We deliver AI powered, virtual medical services designed
+            to be accessible, affordable, and reliable for individuals in
+            Nigeria’s underserved communities, and beyond. Your health, our
+            mission.
+          </p>
+          <!-- Social Icons -->
+          <div class="flex space-x-4 pt-2">
+            <a href="#" aria-label="Facebook" class="hover:text-white">
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                <path
+                  d="M22 12a10 10 0 1 0-11.6 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.2 3-3.2.9 0 1.8.2 1.8.2v2h-1c-1 0-1.3.6-1.3 1.2V11h2.2l-.3 3h-1.9v7A10 10 0 0 0 22 12"
+                />
+              </svg>
+            </a>
+            <a href="#" aria-label="Twitter" class="hover:text-white">
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                <path
+                  d="M22.5 5.9c-.8.4-1.6.6-2.5.7a4.3 4.3 0 0 0 1.9-2.4 8.4 8.4 0 0 1-2.7 1A4.2 4.2 0 0 0 12 9a12 12 0 0 1-8.7-4.4A4.2 4.2 0 0 0 4 10.5c-.7 0-1.3-.2-1.9-.5v.1A4.2 4.2 0 0 0 6 14a4.2 4.2 0 0 1-1.9.1A4.3 4.3 0 0 0 8 17a8.5 8.5 0 0 1-5.2 1.8c-.3 0-.6 0-.8 0A12 12 0 0 0 9 21c7.5 0 11.6-6.2 11.6-11.6v-.5c.8-.6 1.5-1.3 2-2.1z"
+                />
+              </svg>
+            </a>
+            <a href="#" aria-label="Instagram" class="hover:text-white">
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                <path
+                  d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 2a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h10zm-5 3a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm4.5-.9a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Company Links -->
+        <div>
+          <h4 class="text-sm font-semibold text-white mb-4">Company</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="hover:text-white">Mission</a></li>
+            <li><a href="#" class="hover:text-white">Our Story</a></li>
+            <li><a href="#" class="hover:text-white">Solutions</a></li>
+          </ul>
+        </div>
+
+        <!-- Services Links -->
+        <div>
+          <h4 class="text-sm font-semibold text-white mb-4">Services</h4>
+          <ul class="space-y-2 text-sm">
+            <li>
+              <a href="#" class="hover:text-white"
+                >AI-Assisted Medical Consultations</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-white"
+                >Virtual Doctor Appointments</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-white"
+                >Health Monitoring & Wellness Tools</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Help Links -->
+        <div>
+          <h4 class="text-sm font-semibold text-white mb-4">Help</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="hover:text-white">Contact Us</a></li>
+            <li><a href="#" class="hover:text-white">Terms & Conditions</a></li>
+            <li><a href="#" class="hover:text-white">Help</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="mt-12 text-center text-xs text-gray-500">
+        © 2025 KenEi Solutions Inc.
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
